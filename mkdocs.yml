@@ -1,0 +1,58 @@
+site_url: https://IlonaDziurava.github.io/vilnius-guide/
+site_name: Vilnius Travel Guide
+site_description: Your complete guide to exploring Vilnius, Lithuania
+site_author: Vilnius Explorer
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotate
+  palette:
+    primary: deep purple
+    accent: amber
+
+extra:
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - tables
+
+nav:
+  - Home: index.md
+  - Travel Guide:
+      - Getting Started: guide/getting-started.md
+      - Best Time to Visit: guide/best-time.md
+      - Getting Around: guide/getting-around.md
+  - Districts:
+      - Old Town: districts/old-town.md
+      - Užupis: districts/uzupis.md
+      - Šnipiškės (CBD): districts/shnipishkes.md
+  - Food & Drink:
+      - Lithuanian Cuisine: food/cuisine.md
+      - Best Restaurants: food/restaurants.md
+      - Cafes & Coffee: food/cafes.md
+  - About: about.md

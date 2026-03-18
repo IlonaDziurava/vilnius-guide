@@ -1,0 +1,51 @@
+:root {
+  --md-primary-fg-color: #4a148c;
+  --md-accent-fg-color: #ffab00;
+}
+
+.md-header {
+  background-color: var(--md-primary-fg-color);
+}
+
+.hero-banner {
+  background: linear-gradient(135deg, #4a148c 0%, #7b1fa2 50%, #ffab00 100%);
+  color: white;
+  padding: 3rem 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.hero-banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.hero-banner p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: box-shadow 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.card h3 {
+  color: #4a148c;
+  margin-top: 0;
+}
