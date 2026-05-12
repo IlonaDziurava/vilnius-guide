@@ -43,16 +43,32 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Travel Guide:
-      - Getting Started: guide/getting-started.md
-      - Best Time to Visit: guide/best-time.md
-      - Getting Around: guide/getting-around.md
-  - Districts:
-      - Old Town: districts/old-town.md
-      - Užupis: districts/uzupis.md
-      - Šnipiškės (CBD): districts/shnipishkes.md
-  - Food & Drink:
-      - Lithuanian Cuisine: food/cuisine.md
-      - Best Restaurants: food/restaurants.md
-      - Cafes & Coffee: food/cafes.md
+  - "1 · Deciding":
+      - Why Vilnius?: 01-deciding/why-vilnius.md
+      - Best Time to Visit: 01-deciding/best-time.md
+      - How Long to Stay: 01-deciding/how-long.md
+  - "2 · Planning":
+      - Entry & Money: 02-planning/getting-started.md
+      - Budgeting: 02-planning/budgeting.md
+      - Where to Stay: 02-planning/where-to-stay.md
+      - Itineraries: 02-planning/itineraries/2-day.md
+  - "3 · Arriving":
+      - Getting Around: 03-arriving/getting-around.md
+      - Connectivity: 03-arriving/sim-and-connectivity.md
+      - Safety & Tips: 03-arriving/safety-and-tips.md
+  - "4 · Exploring":
+      - Old Town: 04-exploring/districts/old-town.md
+      - Užupis: 04-exploring/districts/uzupis.md
+      - Šnipiškės: 04-exploring/districts/shnipishkes.md
+      - Lithuanian Cuisine: 04-exploring/food/cuisine.md
+      - Best Restaurants: 04-exploring/food/restaurants.md
+      - Cafes & Coffee: 04-exploring/food/cafes.md
+  - "5 · Going Deeper":
+      - History: 05-deeper/history.md
+      - Language: 05-deeper/language.md
+      - Local Life: 05-deeper/local-life.md
+  - Reference:
+      - Useful Apps: reference/useful-apps.md
+      - Phrasebook: reference/phrasebook.md
   - About: about.md
+  - Structure rationale: about-structure.md
